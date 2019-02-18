@@ -28,6 +28,12 @@ This features all the latest tools and practices in the industry.
 3. Run `yarn` or `npm install` to install dependencies.<br />
 4. Run `yarn start` to see the example app at `http://localhost:3000`.
 
+## Generate new component / container
+
+1. Run `npm run generate` and follow instruction.
+2. Choose `y` for `i18n` if translation is needed.
+3. Choose `y` for `asynchronous` loading if generating a container
+   
 ## Info
 
 <div align="center">
