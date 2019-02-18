@@ -1,20 +1,24 @@
+// @flow
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Banner from './images/banner.jpg';
+import NavigationButton from '../NavigationButton';
 import './style.scss';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Header extends React.Component {
   render() {
+    const NavigationButtons = [
+      {
+        label: 'Home',
+        url: '/'
+      },
+      {
+        label: 'Services',
+        url: '/services'
+      }];
     return (
       <div className="header">
         <div className="nav-bar">
-          <Link className="router-link" to="/">
-            Home
-          </Link>
-          <Link className="router-link" to="/services">
-            Services
-          </Link>
+          <NavigationButton buttons={NavigationButtons}></NavigationButton>
         </div>
       </div>
     );
