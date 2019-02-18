@@ -1,6 +1,6 @@
 // @flow
 import React from 'react';
-import NavigationButton from '../NavigationButton';
+import Navigation from '../Navigation';
 import './style.scss';
 
 // eslint-disable-next-line react/prefer-stateless-function
@@ -18,7 +18,7 @@ class Header extends React.Component {
     return (
       <div className="header">
         <div className="nav-bar">
-          <NavigationButton buttons={NavigationButtons}></NavigationButton>
+          <Navigation buttons={NavigationButtons}></Navigation>
         </div>
       </div>
     );
