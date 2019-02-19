@@ -15,6 +15,8 @@ describe('<Footer />', () => {
 
   it('should render the credits', () => {
     const renderedComponent = shallow(<Footer />);
-    expect(renderedComponent.text()).toContain('Dinesh Pandiyan');
+    expect(renderedComponent.text()).toContain(
+      'This project is licensed under the MIT license.Copyright © 2019 decodingminds.comBoilerplate ❤️ by React-Redux BoilerPlate'
+    );
   });
 });
