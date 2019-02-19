@@ -13,7 +13,7 @@ module.exports = (options) => ({
   output: Object.assign(
     {
       // Compile into js/build.js
-      path: path.resolve(__dirname, 'build'),
+      path: path.resolve(process.cwd(), 'build'),
       publicPath: '/'
     },
     options.output
