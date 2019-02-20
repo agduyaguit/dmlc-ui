@@ -12,11 +12,26 @@ class Header extends React.Component {
         url: '/'
       },
       {
-        label: 'Services',
+        label: 'About',
+        url: '/about'
+      },
+      {
+        label: 'Our Services',
         url: '/services'
-      }];
+      },
+      {
+        label: 'Our Learners',
+        url: '/learners'
+      },
+      {
+        label: 'Our Staff',
+        url: '/staff'
+      }
+    ];
+
     return (
       <div className="header">
+        <div className="background" />
         <div className="nav-bar">
           <Navigation buttons={NavigationButtons}></Navigation>
         </div>
