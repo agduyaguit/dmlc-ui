@@ -1,15 +1,19 @@
 .header {
-  min-height: 250px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
+  flex-wrap: wrap;
 
-  img {
-    width: 100%;
-    margin: 0 auto;
-    display: block;
+  :not(:last-child){
+    margin-bottom: 5px;
+  }
+
+  .background {
+    background: url('./images/banner.jpg');
+    background-size: cover;
+    min-height: 137px;
   }
 
   .nav-bar {
-    text-align: left;
+    text-align: right;
   }
 }
