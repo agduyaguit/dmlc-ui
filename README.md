@@ -9,9 +9,7 @@
   <sub>Created by <a href="hh">DMLC &copy 2019 Web Team</a></sub>
 </div>
 
-##Build status
-
-<div><a href="https://travis-ci.com/agduyaguit/dmlc-ui.svg?token=Yss8BcY1DZySAb6ssNH2&branch=develop"></a></div>
+[![Build Status](https://travis-ci.com/agduyaguit/dmlc-ui.svg?token=Yss8BcY1DZySAb6ssNH2&branch=develop)]
 
 ## Features
 
