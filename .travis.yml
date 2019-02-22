@@ -10,6 +10,12 @@ script:
   - npm run test
   - npm run build
 
+# safelist
+branches:
+  only:
+    - master
+    - develop
+
 notifications:
   email:
     on_failure: change
