@@ -8,6 +8,13 @@
 <div align="center">
   <sub>Created by <a href="hh">DMLC &copy 2019 Web Team</a></sub>
 </div>
+<div align="center">
+  <sub>
+    <a href="https://travis-ci.com/agduyaguit/dmlc-ui">
+      <img src="https://travis-ci.com/agduyaguit/dmlc-ui.svg?token=Yss8BcY1DZySAb6ssNH2&branch=develop" alt="Build Status" />
+    </a>
+  </sub>
+</div>
 
 ## Features
 
@@ -33,7 +40,7 @@ This features all the latest tools and practices in the industry.
 1. Run `npm run generate` and follow instruction.
 2. Choose `y` for `i18n` if translation is needed.
 3. Choose `y` for `asynchronous` loading if generating a container
-   
+
 ## Info
 
 <div align="center">
