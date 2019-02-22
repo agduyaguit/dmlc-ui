@@ -11,7 +11,7 @@
 
 ##Build status
 
-<div>https://travis-ci.com/agduyaguit/dmlc-ui.svg?token=Yss8BcY1DZySAb6ssNH2&branch=develop</div>
+<div><a href="https://travis-ci.com/agduyaguit/dmlc-ui.svg?token=Yss8BcY1DZySAb6ssNH2&branch=develop"></a></div>
 
 ## Features
 
