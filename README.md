@@ -7,9 +7,12 @@
 <br />
 <div align="center">
   <sub>Created by <a href="hh">DMLC &copy 2019 Web Team</a></sub>
-  <sub>![Build Status](https://travis-ci.com/agduyaguit/dmlc-ui.svg?token=Yss8BcY1DZySAb6ssNH2&branch=develop)</sub>
+  <sub>
+    <a href="https://travis-ci.com/agduyaguit/dmlc-ui">
+      <img src="https://travis-ci.com/agduyaguit/dmlc-ui.svg?token=Yss8BcY1DZySAb6ssNH2&branch=develop" alt="Build Status" />
+    </a>
+  </sub>
 </div>
-
 ## Features
 
 This features all the latest tools and practices in the industry.
