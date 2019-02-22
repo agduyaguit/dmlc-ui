@@ -11,7 +11,4 @@ const makeSelectUsername = () => createSelector(
   (homeState) => homeState.get('username')
 );
 
-export {
-  selectHome,
-  makeSelectUsername,
-};
+export { selectHome, makeSelectUsername };
